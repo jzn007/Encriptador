@@ -20,8 +20,7 @@
         <div class="card-process">
             <div class="text-process">
                 <textarea class="textarea-process" cols="20" rows="10"
-                    placeholder="Ingrese el texto aqui">
-                </textarea>
+                    placeholder="Ingrese el texto aqui"></textarea>
             </div>
 
             <div>
@@ -29,8 +28,8 @@
             </div>
 
             <div class="buttons-process">
-                <button class="button-encrypt">Encriptar</button>
-                <button class="button-decrypt">Desencriptar</button>
+                <button class="button-encrypt" onclick="encrypt(true);">Encriptar</button>
+                <button class="button-decrypt" onclick="encrypt(false);">Desencriptar</button>
             </div>
         </div>
 
@@ -46,7 +45,7 @@
                 <p class="label-ingresatexto-result">Ingresa el texto que desees encriptar o desencriptar.</p>
             </div>
             <div class="buttons-result">
-                <button class="buttonCopy-result">Copiar</button>
+                <button class="buttonCopy-result" onclick="copy();">Copiar</button>
             </div>
         </div>
     </div>
