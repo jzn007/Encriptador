@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="img/Logo.png" alt="logo Alura">
+    </header>
+
+    <div class="container">
+        <div class="card-process">
+            <div class="text-process">
+                <textarea class="textarea-process" cols="20" rows="10"
+                    placeholder="Ingrese el texto aqui">
+                </textarea>
+            </div>
+
+            <div>
+                <p class="label-information-process">Solo minusculas y sin acento</p>
+            </div>
+
+            <div class="buttons-process">
+                <button class="button-encrypt">Encriptar</button>
+                <button class="button-decrypt">Desencriptar</button>
+            </div>
+        </div>
+
+        <div class="card-result">
+            <div class="text-result">
+                <textarea class="textarea-result" cols="20" rows="10">
+                </textarea>
+            </div>
+            <div>
+                <p class="label-notfound-result">Ningun mensaje fue encontrado</h1>
+            </div>
+            <div>
+                <p class="label-ingresatexto-result">Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+            <div class="buttons-result">
+                <button class="buttonCopy-result">Copiar</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>By Juan Zepeda Nolasco</p> 
+    </footer>
+    <script src="js/encriptador.js"></script>
+</body>
+
+</html>

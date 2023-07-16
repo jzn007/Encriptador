@@ -1,0 +1,227 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 32px;
+    /* line-height: 150%; */
+}
+
+/* html {
+    height: 99%;
+    width: 99%;
+} */
+
+body {
+    min-height: 100%;
+    min-width: 100%;
+    border-style: solid;
+    border-color: lightseagreen;
+    background: #c7d2fa;
+    align-content: end;
+} 
+
+.logo{
+    padding-top: 10px;
+    margin-left: 10px;
+}
+
+.container {
+    border-style: solid;
+    border-color: brown;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 0.2rem;
+    text-align: center;
+}
+
+.card-process {
+    border-style: solid;
+    border-color: yellow;
+    display: grid;
+    grid-template-rows: 2.4fr .2fr .2fr; /*repeat(auto-fill, min(100px, 1fr));*/
+
+}
+
+.text-process {
+    border-style: solid;
+    border-color: lightblue;
+}
+
+.textarea-process {
+    border-style: solid;
+    border-color: red;
+    border-radius: 10%;
+    background: transparent;
+    height: 15rem;
+    width: 12rem;
+    resize: none;
+}
+
+.label-information-process{
+    border-style: solid;
+    border-color: lightgreen;
+    font-size: .5rem;
+}
+
+.buttons-process{
+    border-style: solid;
+    border-color: lightcoral;
+}
+
+.button-encrypt{
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color:white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.button-decrypt{
+    background:  #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color:#0A3871;;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+
+.card-result {
+    border-style: solid;
+    border-color: yellow;
+    background: white;
+    display: grid;
+    grid-template-rows: 2.2fr .2fr .2fr .2fr; /*repeat(auto-fill, min(100px, 1fr));*/
+}
+
+.text-result {
+    border-style: solid;
+    border-color: lightblue;
+    /* margin-top: 3rem; */
+}
+
+.textarea-result {
+    border-radius: 10%;
+    border-color: red;
+    background-position: bottom;
+    background-image: url("/img/muneco.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    color:#0A3871;
+    text-transform: lowercase;
+    height: 15rem;
+    width: 10rem;
+    resize: none;
+    /* margin-bottom: 1rem;  */
+}
+
+.label-notfound-result{
+    font-weight: bold;
+    font-size: larger;
+    /* margin-top: .5em; */
+} 
+
+.label-ingresatexto-result{
+    font-size: medium;
+    /* margin-top: .5rem; */
+}
+    
+.buttons-result{
+    border-style: solid;
+    border-color: lightcoral;
+    /* margin-top: .5rem; */
+}
+
+.buttonCopy-result{
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    height: 67px;
+    width: 336px;
+}
+
+footer{
+    /* padding-top: 1rem; */
+    display: flex;
+    flex-direction: column;
+    margin-top: .5em;
+    flex-shrink: 0;
+    /* min-height: 65px; */
+    text-align: center;
+}
+
+/* .textAreaMessage{
+    width: 90%;
+    background-image: url("/img/muneco.png");
+    background-repeat: no-repeat;
+    width: fit-content;
+    height: fit-content;
+
+} */
+
+
+
+/* ::placeholder { color: #0A3871;}
+
+.text-area:focus {
+    outline: none;
+} */
+
+/* .mensaje {
+    background: white;
+    background-image: url("/img/muneco.png");
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+} */
+
+.mensaje:focus{
+    outline: none;
+}
+
+/* .botones {
+    display: flex;
+    margin-top: 18px;
+} */
+
+/* .btn-encriptar {
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color:white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+} */
+
+/* .btn-desencriptar {
+    background:  #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color:#0A3871;;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+} */
+
+/* .btn-copiar {
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 402px;
+    position: absolute;
+    width: 336px;
+} */
