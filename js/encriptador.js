@@ -24,18 +24,6 @@ const decryptMessage = (message) => {
     return message;
 }
 
-const main = () => {
-    mensajeD = decrypt(mensajeEncriptado);
-    console.log(mensajeD);
-    mensajeE = encrypt(mensajeDesencriptado);
-    console.log(mensajeE);
-    checar = decrypt(mensajeE);
-    if(mensajeE === mensajeEncriptado)
-        console.log("Si son iguales");
-    else
-        console.log("No son iguales");
-}
-
 const hideMessageNotFoud = (hide) => {
     let textAreaResult = document.getElementsByClassName("textarea-result")[0];
     let labelNotfoundResult = document.getElementsByClassName("label-notfound-result")[0];
@@ -46,10 +34,6 @@ const hideMessageNotFoud = (hide) => {
     labelNotfoundResult.style.visibility = hide ? "hidden" : "visible";
     labelIngresatextoResult.style.visibility = hide ? "hidden" : "visible";
     buttonCopyResult.style.visibility = hide ? "visible" : "hidden";
-}
-
-const copyMessageResultToClipboard = () => {
-    navigator.clipboard.write("");
 }
 
 const encrypt = (yes) => {
